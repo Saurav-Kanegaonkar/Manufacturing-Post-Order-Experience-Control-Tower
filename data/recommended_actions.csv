@@ -1,0 +1,221 @@
+action_id,entity_id,action_type,effort_hours,expected_lift_pct,status
+ACT0001,ORD024,document,7,20.9,Proposed
+ACT0002,ORD011,escalate,8,12.6,Ready
+ACT0003,ORD036,automate,33,5.3,In Review
+ACT0004,ORD013,document,22,6.9,Proposed
+ACT0005,ORD004,escalate,31,15.1,In Review
+ACT0006,ORD018,automate,5,7.2,Complete
+ACT0007,ORD012,document,2,15.4,Complete
+ACT0008,ORD011,automate,36,5.2,Complete
+ACT0009,ORD033,prioritize,16,23.4,Proposed
+ACT0010,ORD024,monitor,9,3.9,Ready
+ACT0011,ORD022,automate,11,14.6,In Review
+ACT0012,ORD007,monitor,9,17.7,In Review
+ACT0013,ORD030,automate,28,9.1,Proposed
+ACT0014,ORD012,monitor,38,3.7,In Review
+ACT0015,ORD025,automate,16,4.3,In Review
+ACT0016,ORD012,automate,29,17.2,Proposed
+ACT0017,ORD010,monitor,20,23.9,Complete
+ACT0018,ORD014,document,15,4.8,Proposed
+ACT0019,ORD011,escalate,33,20.9,Complete
+ACT0020,ORD001,validate,20,14.8,Complete
+ACT0021,ORD028,prioritize,17,15.1,In Review
+ACT0022,ORD021,monitor,27,5.9,Ready
+ACT0023,ORD007,document,17,11.6,Complete
+ACT0024,ORD007,monitor,30,11.4,Proposed
+ACT0025,ORD012,escalate,15,21.0,In Review
+ACT0026,ORD010,validate,31,7.5,Ready
+ACT0027,ORD017,validate,43,10.3,In Review
+ACT0028,ORD015,escalate,43,8.3,Proposed
+ACT0029,ORD023,document,23,18.9,Complete
+ACT0030,ORD032,monitor,36,7.2,In Review
+ACT0031,ORD030,monitor,10,23.7,Complete
+ACT0032,ORD030,escalate,3,7.4,In Review
+ACT0033,ORD003,automate,27,15.6,Complete
+ACT0034,ORD012,prioritize,17,11.0,Proposed
+ACT0035,ORD025,prioritize,40,12.2,In Review
+ACT0036,ORD011,escalate,20,6.1,Ready
+ACT0037,ORD031,monitor,43,9.2,Complete
+ACT0038,ORD001,document,33,21.7,Ready
+ACT0039,ORD033,prioritize,44,2.6,Complete
+ACT0040,ORD029,document,6,14.6,Complete
+ACT0041,ORD025,document,44,3.8,In Review
+ACT0042,ORD027,document,33,17.5,In Review
+ACT0043,ORD021,monitor,3,2.5,Complete
+ACT0044,ORD001,escalate,5,2.9,Ready
+ACT0045,ORD030,automate,2,3.9,Proposed
+ACT0046,ORD014,prioritize,43,23.5,Proposed
+ACT0047,ORD020,prioritize,39,5.2,In Review
+ACT0048,ORD016,escalate,27,13.9,Complete
+ACT0049,ORD020,validate,19,4.5,Proposed
+ACT0050,ORD028,escalate,43,14.1,Ready
+ACT0051,ORD020,escalate,30,8.3,Proposed
+ACT0052,ORD028,escalate,31,8.7,Proposed
+ACT0053,ORD010,prioritize,41,2.1,Complete
+ACT0054,ORD032,document,31,3.4,In Review
+ACT0055,ORD004,document,16,18.1,Proposed
+ACT0056,ORD006,escalate,32,22.3,Ready
+ACT0057,ORD027,validate,43,11.8,Ready
+ACT0058,ORD024,automate,24,5.0,Proposed
+ACT0059,ORD015,escalate,38,14.3,In Review
+ACT0060,ORD022,automate,25,7.2,Ready
+ACT0061,ORD009,monitor,37,13.7,Proposed
+ACT0062,ORD016,automate,15,10.2,Complete
+ACT0063,ORD014,automate,38,14.3,Proposed
+ACT0064,ORD025,prioritize,17,21.9,Proposed
+ACT0065,ORD025,document,38,3.4,In Review
+ACT0066,ORD023,escalate,23,6.9,Ready
+ACT0067,ORD024,automate,13,3.4,In Review
+ACT0068,ORD006,validate,15,19.9,Complete
+ACT0069,ORD002,validate,5,13.4,Proposed
+ACT0070,ORD036,automate,41,22.7,Proposed
+ACT0071,ORD022,document,41,10.4,Complete
+ACT0072,ORD022,document,19,16.8,Proposed
+ACT0073,ORD010,monitor,38,5.3,Complete
+ACT0074,ORD003,automate,25,6.7,In Review
+ACT0075,ORD027,automate,31,20.7,Ready
+ACT0076,ORD024,escalate,13,12.8,Proposed
+ACT0077,ORD032,escalate,23,17.4,Ready
+ACT0078,ORD010,prioritize,9,4.7,Proposed
+ACT0079,ORD010,validate,13,15.8,Complete
+ACT0080,ORD022,escalate,3,19.6,Complete
+ACT0081,ORD003,monitor,37,15.2,Ready
+ACT0082,ORD023,monitor,10,14.9,Complete
+ACT0083,ORD032,monitor,31,18.5,Proposed
+ACT0084,ORD027,monitor,9,18.2,In Review
+ACT0085,ORD017,document,22,18.2,Proposed
+ACT0086,ORD026,monitor,27,11.2,Proposed
+ACT0087,ORD033,prioritize,23,4.8,In Review
+ACT0088,ORD008,escalate,6,11.9,Ready
+ACT0089,ORD006,monitor,41,3.8,In Review
+ACT0090,ORD016,automate,39,15.4,Complete
+ACT0091,ORD003,automate,28,10.9,In Review
+ACT0092,ORD026,monitor,33,10.5,Complete
+ACT0093,ORD003,prioritize,40,19.9,Proposed
+ACT0094,ORD019,prioritize,33,14.8,Ready
+ACT0095,ORD011,escalate,43,22.8,Proposed
+ACT0096,ORD003,document,32,10.9,Ready
+ACT0097,ORD034,automate,28,17.2,Ready
+ACT0098,ORD014,document,23,10.1,Proposed
+ACT0099,ORD021,validate,40,9.8,In Review
+ACT0100,ORD016,prioritize,30,20.3,Ready
+ACT0101,ORD002,monitor,36,20.1,Proposed
+ACT0102,ORD025,escalate,33,3.8,In Review
+ACT0103,ORD034,escalate,6,7.1,In Review
+ACT0104,ORD034,automate,29,21.3,In Review
+ACT0105,ORD018,monitor,28,4.8,Proposed
+ACT0106,ORD014,document,23,4.4,In Review
+ACT0107,ORD013,monitor,31,5.9,In Review
+ACT0108,ORD027,document,3,24.0,Ready
+ACT0109,ORD014,escalate,40,3.5,Ready
+ACT0110,ORD004,validate,15,20.4,In Review
+ACT0111,ORD002,document,32,5.3,Proposed
+ACT0112,ORD001,monitor,42,5.7,Complete
+ACT0113,ORD008,prioritize,22,12.4,Ready
+ACT0114,ORD034,document,23,22.0,In Review
+ACT0115,ORD010,monitor,35,17.9,In Review
+ACT0116,ORD012,prioritize,27,5.1,In Review
+ACT0117,ORD027,monitor,43,14.4,Complete
+ACT0118,ORD027,document,30,8.3,In Review
+ACT0119,ORD018,validate,6,21.5,Complete
+ACT0120,ORD003,prioritize,27,4.6,In Review
+ACT0121,ORD023,document,8,12.7,In Review
+ACT0122,ORD016,escalate,27,16.0,Ready
+ACT0123,ORD011,prioritize,39,10.1,Ready
+ACT0124,ORD016,document,16,12.3,Ready
+ACT0125,ORD029,validate,41,21.9,Complete
+ACT0126,ORD035,monitor,26,19.0,Proposed
+ACT0127,ORD015,validate,2,17.3,Complete
+ACT0128,ORD032,validate,12,10.1,Complete
+ACT0129,ORD024,monitor,10,13.7,Complete
+ACT0130,ORD030,document,5,7.3,Ready
+ACT0131,ORD007,automate,11,10.3,Proposed
+ACT0132,ORD031,escalate,39,14.1,Complete
+ACT0133,ORD032,validate,34,16.5,Proposed
+ACT0134,ORD025,automate,13,6.8,In Review
+ACT0135,ORD030,escalate,13,2.6,Proposed
+ACT0136,ORD018,validate,42,12.0,Proposed
+ACT0137,ORD007,prioritize,2,23.6,Complete
+ACT0138,ORD001,validate,37,9.4,Ready
+ACT0139,ORD008,automate,13,7.9,Ready
+ACT0140,ORD021,escalate,5,14.5,Ready
+ACT0141,ORD030,prioritize,19,9.9,Proposed
+ACT0142,ORD033,automate,39,4.9,Proposed
+ACT0143,ORD033,prioritize,18,17.4,Proposed
+ACT0144,ORD030,prioritize,5,17.1,Ready
+ACT0145,ORD030,validate,29,7.7,In Review
+ACT0146,ORD027,prioritize,13,5.0,Complete
+ACT0147,ORD027,document,8,8.9,Ready
+ACT0148,ORD005,automate,24,9.9,Ready
+ACT0149,ORD011,monitor,12,2.9,In Review
+ACT0150,ORD002,prioritize,14,22.6,In Review
+ACT0151,ORD007,escalate,37,5.2,In Review
+ACT0152,ORD035,automate,7,20.7,Proposed
+ACT0153,ORD006,prioritize,29,10.4,Complete
+ACT0154,ORD003,monitor,32,16.1,Proposed
+ACT0155,ORD015,document,42,2.8,In Review
+ACT0156,ORD011,prioritize,21,7.9,Complete
+ACT0157,ORD013,automate,23,9.7,Proposed
+ACT0158,ORD017,automate,31,14.6,Ready
+ACT0159,ORD016,automate,16,18.2,Proposed
+ACT0160,ORD002,validate,30,18.5,In Review
+ACT0161,ORD007,prioritize,20,4.7,Ready
+ACT0162,ORD014,document,28,6.1,In Review
+ACT0163,ORD010,monitor,30,20.0,Proposed
+ACT0164,ORD014,document,14,20.5,Proposed
+ACT0165,ORD012,document,21,6.5,Complete
+ACT0166,ORD036,validate,30,12.1,Proposed
+ACT0167,ORD017,document,27,4.4,Complete
+ACT0168,ORD019,document,25,13.0,Complete
+ACT0169,ORD001,validate,38,17.2,Ready
+ACT0170,ORD001,document,42,8.6,Complete
+ACT0171,ORD028,document,13,13.8,Ready
+ACT0172,ORD013,monitor,23,8.4,Proposed
+ACT0173,ORD035,escalate,22,2.2,Proposed
+ACT0174,ORD023,escalate,35,18.1,Complete
+ACT0175,ORD026,escalate,19,16.3,Complete
+ACT0176,ORD007,automate,34,17.7,Proposed
+ACT0177,ORD006,document,14,2.1,Complete
+ACT0178,ORD011,monitor,24,20.6,Ready
+ACT0179,ORD015,validate,7,8.2,Complete
+ACT0180,ORD003,automate,24,19.8,Ready
+ACT0181,ORD036,automate,39,12.6,Proposed
+ACT0182,ORD003,monitor,37,20.0,In Review
+ACT0183,ORD024,escalate,41,23.0,Ready
+ACT0184,ORD024,escalate,33,11.0,Proposed
+ACT0185,ORD027,validate,25,13.0,Complete
+ACT0186,ORD016,automate,28,12.9,In Review
+ACT0187,ORD013,prioritize,35,4.9,Ready
+ACT0188,ORD020,escalate,29,16.8,In Review
+ACT0189,ORD030,document,22,23.5,In Review
+ACT0190,ORD025,escalate,26,8.6,Complete
+ACT0191,ORD033,validate,15,10.5,Proposed
+ACT0192,ORD019,automate,21,20.0,Complete
+ACT0193,ORD010,escalate,35,13.3,Proposed
+ACT0194,ORD022,document,19,13.2,Ready
+ACT0195,ORD027,automate,4,2.1,In Review
+ACT0196,ORD013,automate,4,5.7,Ready
+ACT0197,ORD032,document,7,10.9,In Review
+ACT0198,ORD002,validate,5,4.6,Complete
+ACT0199,ORD016,validate,36,17.8,Complete
+ACT0200,ORD029,prioritize,37,22.6,Complete
+ACT0201,ORD028,automate,6,7.5,Ready
+ACT0202,ORD001,document,28,20.7,Proposed
+ACT0203,ORD034,prioritize,16,13.5,Complete
+ACT0204,ORD034,prioritize,34,9.3,In Review
+ACT0205,ORD029,document,41,17.9,Complete
+ACT0206,ORD002,document,23,3.4,Complete
+ACT0207,ORD006,monitor,39,19.1,Proposed
+ACT0208,ORD012,document,44,22.7,Ready
+ACT0209,ORD001,validate,38,8.1,Complete
+ACT0210,ORD035,escalate,9,14.5,Complete
+ACT0211,ORD015,escalate,17,2.4,Ready
+ACT0212,ORD010,monitor,41,12.8,Complete
+ACT0213,ORD014,automate,17,23.3,Complete
+ACT0214,ORD025,validate,32,15.2,Complete
+ACT0215,ORD029,document,43,7.2,Complete
+ACT0216,ORD015,monitor,29,10.3,In Review
+ACT0217,ORD009,prioritize,4,15.1,Proposed
+ACT0218,ORD009,escalate,40,13.7,Complete
+ACT0219,ORD023,document,7,13.6,Ready
+ACT0220,ORD008,automate,37,15.9,In Review

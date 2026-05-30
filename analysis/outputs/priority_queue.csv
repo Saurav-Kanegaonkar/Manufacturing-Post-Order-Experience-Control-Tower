@@ -1,0 +1,26 @@
+entity_id,entity_name,segment,priority_score,avg_risk_score,avg_quality_score,estimated_impact
+ORD011,Order journey 11,Watch,103.24,50.5,80.7,920862
+ORD010,Order journey 10,Core,92.86,47.7,80.7,799417
+ORD030,Order journey 30,Watch,89.99,50.2,82.0,743253
+ORD031,Order journey 31,Watch,89.50,50.5,78.9,720292
+ORD005,Order journey 5,Strategic,88.65,50.3,80.4,716284
+ORD014,Order journey 14,Growth,88.65,50.0,79.9,716458
+ORD003,Order journey 3,Growth,86.35,51.3,78.7,667928
+ORD001,Order journey 1,Core,84.33,51.9,80.3,641650
+ORD017,Order journey 17,Strategic,84.27,50.8,81.6,656690
+ORD028,Order journey 28,Strategic,82.86,49.6,81.1,644799
+ORD006,Order journey 6,Growth,82.29,49.9,80.0,629343
+ORD004,Order journey 4,Core,81.79,52.6,81.6,605885
+ORD015,Order journey 15,Growth,80.18,53.2,79.4,568877
+ORD012,Order journey 12,Growth,79.44,53.0,81.3,568647
+ORD035,Order journey 35,Core,78.69,53.8,79.9,545033
+ORD019,Order journey 19,Strategic,78.55,49.7,80.6,581484
+ORD008,Order journey 8,Core,78.06,53.0,81.0,547874
+ORD007,Order journey 7,Watch,77.89,53.9,80.0,532880
+ORD023,Order journey 23,Growth,77.13,52.6,81.8,542179
+ORD024,Order journey 24,Strategic,76.24,52.1,78.7,519369
+ORD025,Order journey 25,Core,75.64,47.6,81.2,561531
+ORD002,Order journey 2,Strategic,74.82,48.4,80.8,541819
+ORD020,Order journey 20,Strategic,73.88,50.3,81.5,514859
+ORD034,Order journey 34,Growth,72.73,46.3,83.3,541129
+ORD033,Order journey 33,Strategic,71.64,52.1,80.0,460744
