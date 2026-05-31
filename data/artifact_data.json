@@ -1,0 +1,251 @@
+{
+  "summary": {
+    "title": "Post-Order Experience PRD Studio",
+    "domain": "Custom manufacturing marketplace",
+    "top_stage": "Delay notification",
+    "top_feature": "Proactive delay promise center",
+    "north_star": "Buyer confidence after checkout",
+    "primary_metric": "Post-order support contacts per 100 active orders"
+  },
+  "journey": [
+    {
+      "stage_id": "J04",
+      "stage": "Delay notification",
+      "buyer_need": "Learn about schedule risk early enough to adjust downstream plans.",
+      "pain_score": 87,
+      "support_contacts_per_100": 24.9,
+      "sla_risk": 72,
+      "visibility_gap": 76,
+      "csat_delta": -15.3,
+      "primary_signal": "Late delay disclosure creates avoidable tickets and buyer distrust.",
+      "prd_opportunity": "Launch proactive delay alerts with reason codes, revised ETA, confidence, and next action.",
+      "priority_score": 117.7
+    },
+    {
+      "stage_id": "J06",
+      "stage": "Support resolution",
+      "buyer_need": "Resolve an exception without repeating context across support, operations, and supplier teams.",
+      "pain_score": 79,
+      "support_contacts_per_100": 21.6,
+      "sla_risk": 55,
+      "visibility_gap": 68,
+      "csat_delta": -11.8,
+      "primary_signal": "Support workflows lack a clear path from ticket intake to accountable resolution.",
+      "prd_opportunity": "Create an exception workspace that links order context, owner, SLA timer, and buyer-facing status copy.",
+      "priority_score": 99.4
+    },
+    {
+      "stage_id": "J03",
+      "stage": "Production progress",
+      "buyer_need": "Understand whether parts are actively being produced and what changed since the last visit.",
+      "pain_score": 71,
+      "support_contacts_per_100": 16.1,
+      "sla_risk": 43,
+      "visibility_gap": 61,
+      "csat_delta": -8.7,
+      "primary_signal": "Static status labels do not explain whether a custom job is progressing.",
+      "prd_opportunity": "Replace static status copy with line-item milestones, last update freshness, and next expected update.",
+      "priority_score": 80.6
+    },
+    {
+      "stage_id": "J02",
+      "stage": "Supplier kickoff",
+      "buyer_need": "See that a matched supplier has accepted the work and understands key requirements.",
+      "pain_score": 66,
+      "support_contacts_per_100": 12.8,
+      "sla_risk": 38,
+      "visibility_gap": 54,
+      "csat_delta": -6.6,
+      "primary_signal": "The handoff from marketplace order to manufacturing work is opaque.",
+      "prd_opportunity": "Expose a supplier kickoff milestone with requirement acknowledgement and owner timestamp.",
+      "priority_score": 68.7
+    },
+    {
+      "stage_id": "J05",
+      "stage": "Shipment tracking",
+      "buyer_need": "Track packages, partial shipments, packing documents, and expected delivery in one place.",
+      "pain_score": 63,
+      "support_contacts_per_100": 13.7,
+      "sla_risk": 34,
+      "visibility_gap": 49,
+      "csat_delta": -5.9,
+      "primary_signal": "Shipment data exists, but line-item and package-level views are fragmented.",
+      "prd_opportunity": "Unify line-item shipment tracking, package status, downloadable packing lists, and delivery exceptions.",
+      "priority_score": 65.6
+    },
+    {
+      "stage_id": "J01",
+      "stage": "Order confirmation",
+      "buyer_need": "Know the order was accepted, reviewed, and ready for supplier kickoff.",
+      "pain_score": 58,
+      "support_contacts_per_100": 9.4,
+      "sla_risk": 26,
+      "visibility_gap": 39,
+      "csat_delta": -4.2,
+      "primary_signal": "Buyers ask whether the order is truly in motion after checkout.",
+      "prd_opportunity": "Add a confirmation panel that separates payment received, manufacturability review, and supplier assignment.",
+      "priority_score": 51.8
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "F01",
+      "initiative": "Proactive delay promise center",
+      "problem": "Buyers learn about custom manufacturing delays too late to adjust their own production plans.",
+      "user_story": "As a buyer, I want delay reasons, revised ETA, and next update timing so I can reset internal expectations.",
+      "reach": 82,
+      "impact": 9.2,
+      "confidence": 84,
+      "effort": 8,
+      "dependency": "Supplier reason-code capture and ETA confidence service",
+      "acceptance_criteria": "Delay alert fires before SLA breach, includes reason code, revised ETA, confidence band, and next update owner.",
+      "metric": "Delay-contact rate per 100 affected orders",
+      "rice_score": 79.2
+    },
+    {
+      "feature_id": "F05",
+      "initiative": "Support reason-code instrumentation",
+      "problem": "Roadmap decisions are weakened when support tickets lack consistent post-order reasons.",
+      "user_story": "As a PM, I want support contacts tagged to journey moments so I can prioritize product fixes.",
+      "reach": 68,
+      "impact": 6.9,
+      "confidence": 81,
+      "effort": 6,
+      "dependency": "Support taxonomy, agent workflow changes, and QA sampling",
+      "acceptance_criteria": "At least 90 percent of post-order tickets contain journey stage, reason code, and resolution path.",
+      "metric": "Tagged ticket completeness",
+      "rice_score": 63.3
+    },
+    {
+      "feature_id": "F02",
+      "initiative": "Line-item milestone timeline",
+      "problem": "A single order status hides what is happening across custom parts, partial shipments, and production steps.",
+      "user_story": "As a procurement lead, I want each line item to show current milestone and next expected update.",
+      "reach": 76,
+      "impact": 8.1,
+      "confidence": 78,
+      "effort": 10,
+      "dependency": "Event normalization across supplier updates, QA checkpoints, and shipping events",
+      "acceptance_criteria": "Each line item shows current milestone, last update age, next step, and exception state.",
+      "metric": "Order status page return rate after support contact",
+      "rice_score": 48.0
+    },
+    {
+      "feature_id": "F04",
+      "initiative": "Buyer-facing update digest",
+      "problem": "Buyers with many active orders cannot quickly see which orders changed since the prior visit.",
+      "user_story": "As a program manager, I want a digest of changed orders so I can focus on risk instead of checking every order.",
+      "reach": 61,
+      "impact": 6.4,
+      "confidence": 74,
+      "effort": 8,
+      "dependency": "Notification preferences and account-level order grouping",
+      "acceptance_criteria": "Digest summarizes changed milestones, delayed orders, shipped line items, and unresolved support items.",
+      "metric": "Weekly active buyer return rate",
+      "rice_score": 36.1
+    },
+    {
+      "feature_id": "F06",
+      "initiative": "Shipment document hub",
+      "problem": "Packing lists, tracking numbers, and partial shipment details are hard to inspect together.",
+      "user_story": "As a buyer, I want shipping documents and tracking grouped by line item and package.",
+      "reach": 46,
+      "impact": 5.8,
+      "confidence": 76,
+      "effort": 7,
+      "dependency": "Carrier tracking links and document availability service",
+      "acceptance_criteria": "Buyer can access package tracking, packing list, carrier, shipped items, and exception state in one view.",
+      "metric": "Shipment-related support contacts",
+      "rice_score": 29.0
+    },
+    {
+      "feature_id": "F03",
+      "initiative": "Exception ownership workspace",
+      "problem": "Support, operations, and supplier teams need one record of what changed and who owns the next action.",
+      "user_story": "As a support agent, I want order context and owner routing so I can resolve exceptions without manual investigation.",
+      "reach": 54,
+      "impact": 8.7,
+      "confidence": 72,
+      "effort": 12,
+      "dependency": "Support ticket integration and escalation taxonomy",
+      "acceptance_criteria": "Every exception has owner, SLA timer, root cause, customer-safe update copy, and next action.",
+      "metric": "Median exception resolution time",
+      "rice_score": 28.2
+    }
+  ],
+  "experiments": [
+    {
+      "experiment_id": "E01",
+      "name": "Early delay alert",
+      "hypothesis": "Sending a delay alert with reason, revised ETA, and next update timing will reduce delay-related support contacts.",
+      "population": "Orders with projected SLA risk above 50 and no shipment scan.",
+      "primary_metric": "Delay support contacts per 100 affected orders",
+      "guardrail": "No increase in cancellation rate or negative CSAT comments about alert quality.",
+      "duration_days": 28,
+      "ship_decision": "Ship if contact rate drops by at least 12 percent and guardrails remain flat."
+    },
+    {
+      "experiment_id": "E02",
+      "name": "Line-item milestone clarity",
+      "hypothesis": "Showing current milestone and next expected update will lower repeated order-status page visits after a ticket.",
+      "population": "Orders with three or more line items and active production status.",
+      "primary_metric": "Repeat status-check tickets within seven days",
+      "guardrail": "No drop in order status page comprehension survey.",
+      "duration_days": 21,
+      "ship_decision": "Ship if repeat tickets fall by 10 percent with no comprehension decline."
+    },
+    {
+      "experiment_id": "E03",
+      "name": "Exception ownership routing",
+      "hypothesis": "Routing exceptions to an accountable owner with buyer-safe update copy will shorten resolution time.",
+      "population": "Support tickets tagged delay, quality question, supplier handoff, or shipment exception.",
+      "primary_metric": "Median exception resolution hours",
+      "guardrail": "No increase in agent handle time beyond 8 percent.",
+      "duration_days": 35,
+      "ship_decision": "Ship if resolution time improves by 15 percent and handle time remains within guardrail."
+    }
+  ],
+  "workflows": [
+    {
+      "trigger": "SLA risk rises above 50",
+      "system_action": "Create delay-alert candidate and request supplier reason code",
+      "human_owner": "Operations lead",
+      "buyer_output": "Revised ETA, reason, confidence, and next update window"
+    },
+    {
+      "trigger": "No supplier update for 72 hours during production",
+      "system_action": "Flag stale milestone and route to supplier manager",
+      "human_owner": "Supplier manager",
+      "buyer_output": "Freshness indicator and next expected update"
+    },
+    {
+      "trigger": "Support ticket repeats within seven days",
+      "system_action": "Attach order timeline, prior messages, and recommended owner",
+      "human_owner": "Support lead",
+      "buyer_output": "Single case status with accountable next action"
+    },
+    {
+      "trigger": "Shipment scan mismatch or partial shipment",
+      "system_action": "Group carrier events by line item and document availability",
+      "human_owner": "Logistics coordinator",
+      "buyer_output": "Package-level timeline and downloadable documents"
+    }
+  ],
+  "researchNotes": [
+    {
+      "theme": "Post-order trust",
+      "insight": "The buyer need is confidence that custom work is progressing, not only a status label.",
+      "evidence_type": "Role requirement and public product support pattern"
+    },
+    {
+      "theme": "Marketplace coordination",
+      "insight": "The hardest moments occur at handoffs between buyer, supplier, operations, logistics, and support.",
+      "evidence_type": "Marketplace workflow structure"
+    },
+    {
+      "theme": "Product instrumentation",
+      "insight": "A PM needs support reasons, SLA risk, and milestone freshness tied to order journey moments.",
+      "evidence_type": "Roadmap and experimentation requirement"
+    }
+  ]
+}

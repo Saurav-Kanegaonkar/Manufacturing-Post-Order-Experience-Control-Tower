@@ -3,52 +3,132 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Manufacturing Post Order Experience Control Tower</title>
+  <title>Post-Order Experience PRD Studio</title>
   <link rel="stylesheet" href="src/styles.css">
 </head>
-<body style="--accent:#dc2626;--bg:#fff1f2">
-  <main class="shell">
-    <header class="hero">
+<body>
+  <main class="app-shell">
+    <header class="topbar">
       <div>
-        <p class="eyebrow">Ops Console / manufacturing marketplace post-order transparency, fulfillment tracking, delay communication, and support resolution</p>
-        <h1>Manufacturing Post Order Experience Control Tower</h1>
+        <p class="eyebrow">Custom manufacturing marketplace</p>
+        <h1>Post-Order Experience PRD Studio</h1>
       </div>
-      <aside>
-        <b>Purpose</b>
-        <span>Turn messy order journey-level signals into a ranked operating artifact with recommendations a stakeholder can act on.</span>
-      </aside>
+      <div class="north-star">
+        <span>North star</span>
+        <strong id="northStar">Buyer confidence after checkout</strong>
+      </div>
     </header>
-    <section class="metrics">
-      <article><span>Modeled rows</span><strong>6.0K+</strong><em>source-style</em></article>
-      <article><span>Ranked queue</span><strong>25</strong><em>order journeys</em></article>
-      <article><span>Action pool</span><strong>220</strong><em>candidates</em></article>
-      <article><span>Review time</span><strong>-6 hrs</strong><em>weekly</em></article>
-    </section>
-    <section class="main-grid">
-      <article class="panel lead">
-        <p class="eyebrow">Launch blockers</p>
-        <h2>Priority queue</h2>
-        <table>
-          <thead><tr><th>order journey</th><th>Signal</th><th>Risk</th><th>Next move</th></tr></thead>
-          <tbody>
-            <tr><td>Segment A</td><td>Feedback loop</td><td>High</td><td>Escalate with source check</td></tr>
-            <tr><td>Segment B</td><td>Execution queue</td><td>Medium</td><td>Test with clear owner</td></tr>
-            <tr><td>Segment C</td><td>Quality gap</td><td>Watch</td><td>Document metric definition</td></tr>
-          </tbody>
-        </table>
+
+    <section class="hero-grid" aria-label="Portfolio summary">
+      <article class="hero-copy">
+        <p class="label">Product bet</p>
+        <h2>Make order progress clear before buyers need support.</h2>
+        <p>
+          This artifact turns post-order journey evidence into a PM-ready roadmap: where buyers lose trust, which features should ship first, and how each bet should be measured.
+        </p>
       </article>
-      <article class="panel narrative">
-        <p class="eyebrow">What the analysis says</p>
-        <h2>Recommendations over screenshots</h2>
-        <p>The artifact is built around decisions, not dashboard decoration: each source table feeds a ranked queue, and each queue item resolves into a recommendation.</p>
-        <p>The strongest opportunities appear where performance upside, measurement quality, and operating readiness overlap.</p>
+      <article class="process-map" aria-label="Post-order journey map">
+        <div class="process-line"></div>
+        <div class="process-step active"><span>1</span><b>Order</b></div>
+        <div class="process-step"><span>2</span><b>Supplier</b></div>
+        <div class="process-step"><span>3</span><b>Build</b></div>
+        <div class="process-step risk"><span>4</span><b>Delay</b></div>
+        <div class="process-step"><span>5</span><b>Ship</b></div>
+        <div class="process-step"><span>6</span><b>Support</b></div>
       </article>
     </section>
-    <section class="recommendations">
-      <article><b>01</b><h3>Validate</h3><p>Confirm source definitions before scaling the insight into recurring reporting.</p></article>
-      <article><b>02</b><h3>Prioritize</h3><p>Move the highest-value order journey segment into the next operating review.</p></article>
-      <article><b>03</b><h3>Automate</h3><p>Convert the queue into a stakeholder-ready digest for repeated decisions.</p></article>
+
+    <section class="metric-row" aria-label="Key metrics">
+      <article>
+        <span>Top risk moment</span>
+        <strong id="topStage">Delay notification</strong>
+      </article>
+      <article>
+        <span>Primary metric</span>
+        <strong id="primaryMetric">Support contacts</strong>
+      </article>
+      <article>
+        <span>Roadmap lead</span>
+        <strong id="topFeature">Proactive delay promise center</strong>
+      </article>
+    </section>
+
+    <nav class="tabs" aria-label="Artifact surfaces">
+      <button class="tab active" type="button" data-tab="journey">Journey Health</button>
+      <button class="tab" type="button" data-tab="roadmap">Roadmap PRD</button>
+      <button class="tab" type="button" data-tab="experiment">Experiment Plan</button>
+    </nav>
+
+    <section id="journey" class="surface active" aria-label="Journey health">
+      <div class="surface-header">
+        <div>
+          <p class="label">Surface 1</p>
+          <h2>Journey health and buyer pain</h2>
+        </div>
+        <p>Stage-level prioritization based on support load, SLA risk, visibility gaps, and CSAT-style sentiment change.</p>
+      </div>
+      <div class="journey-layout">
+        <div id="journeyCards" class="journey-cards"></div>
+        <article class="insight-panel">
+          <p class="label">PM readout</p>
+          <h3 id="stageTitle">Delay notification</h3>
+          <p id="stageSignal">Late delay disclosure creates avoidable tickets and buyer distrust.</p>
+          <dl class="score-list">
+            <div><dt>Support contacts</dt><dd id="stageSupport">24.9 per 100</dd></div>
+            <div><dt>SLA risk</dt><dd id="stageRisk">72</dd></div>
+            <div><dt>Visibility gap</dt><dd id="stageGap">76</dd></div>
+          </dl>
+          <p class="opportunity" id="stageOpportunity">Launch proactive delay alerts with reason codes, revised ETA, confidence, and next action.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="roadmap" class="surface" aria-label="Roadmap PRD">
+      <div class="surface-header">
+        <div>
+          <p class="label">Surface 2</p>
+          <h2>Roadmap PRD and prioritization</h2>
+        </div>
+        <p>Feature candidates translated into user stories, dependencies, acceptance criteria, and RICE-style ranking.</p>
+      </div>
+      <div class="roadmap-grid">
+        <div id="featureList" class="feature-list"></div>
+        <article class="prd-panel">
+          <p class="label">Selected requirement</p>
+          <h3 id="featureTitle">Proactive delay promise center</h3>
+          <p id="featureProblem">Buyers learn about custom manufacturing delays too late to adjust their own production plans.</p>
+          <div class="requirement-block">
+            <span>User story</span>
+            <p id="featureStory"></p>
+          </div>
+          <div class="requirement-block">
+            <span>Acceptance criteria</span>
+            <p id="featureCriteria"></p>
+          </div>
+          <dl class="score-list compact">
+            <div><dt>RICE score</dt><dd id="featureScore">48.7</dd></div>
+            <div><dt>Dependency</dt><dd id="featureDependency">Supplier reason-code capture</dd></div>
+            <div><dt>Success metric</dt><dd id="featureMetric">Delay contact rate</dd></div>
+          </dl>
+        </article>
+      </div>
+    </section>
+
+    <section id="experiment" class="surface" aria-label="Experiment plan">
+      <div class="surface-header">
+        <div>
+          <p class="label">Surface 3</p>
+          <h2>Experiment plan and support workflow</h2>
+        </div>
+        <p>Rollout logic for proving proactive communication and support ownership before broad launch.</p>
+      </div>
+      <div class="experiment-grid">
+        <article class="experiment-card" id="primaryExperiment"></article>
+        <div class="workflow-list" id="workflowList"></div>
+      </div>
     </section>
   </main>
+
+  <script src="src/app.js"></script>
 </body>
 </html>

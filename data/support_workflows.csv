@@ -1,0 +1,5 @@
+trigger,system_action,human_owner,buyer_output
+SLA risk rises above 50,Create delay-alert candidate and request supplier reason code,Operations lead,"Revised ETA, reason, confidence, and next update window"
+No supplier update for 72 hours during production,Flag stale milestone and route to supplier manager,Supplier manager,Freshness indicator and next expected update
+Support ticket repeats within seven days,"Attach order timeline, prior messages, and recommended owner",Support lead,Single case status with accountable next action
+Shipment scan mismatch or partial shipment,Group carrier events by line item and document availability,Logistics coordinator,Package-level timeline and downloadable documents
